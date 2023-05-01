@@ -7,12 +7,20 @@ body {
 
 /* SITE-HEADER */
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color:#fff;
 }
 
+.site-header-actions {
+  display: flex;
+  align-items: center;
+}
 
 /* SITE-NAV */
 .sitenav-list {
+  display: flex;
   list-style: none;
 }
 
@@ -38,6 +46,9 @@ body {
 
 /* HERO */
 .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #252420;
   color: #fff;
 }
@@ -63,6 +74,11 @@ body {
   font-family: "Roboto Condensed" , "Roboto", "Arial", sans-serif;
 }
 
+.features-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
 
 /* FEATURES */
 .features-heading {
@@ -92,6 +108,9 @@ body {
 
 /* PROMO */
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -127,6 +146,16 @@ body {
   background: #f8f8f8;
 }
 
+.site-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer-socials {
+  display: flex;
+}
+
 .site-footer ul {
   list-style: none;
 }
@@ -139,6 +168,11 @@ body {
 .site-footer-links {
   line-height: 19px;
   width: 224px;
+}
+
+.site-footer-bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 .site-footer-links a {
