@@ -149,6 +149,7 @@ body {
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,6 +169,9 @@ body {
 }
 
 .hero-img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
   border-radius: 8px;
   box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
   width: 510px;
@@ -252,6 +256,7 @@ body {
 }
 
 .promo-inner {
+  position: relative;
   padding: 64px;
   border-radius: 12px;
   background-color: #252420;
@@ -292,6 +297,9 @@ body {
 }
 
 .promo-img {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px;
